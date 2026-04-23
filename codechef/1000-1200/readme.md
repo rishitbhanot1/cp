@@ -1,4 +1,4 @@
-# CodeChef Problems (1000–1200)
+# CodeChef Problems (1000–1200) — 1★ Beginner
 
 Solutions to CodeChef problems in the 1000–1200 difficulty range. 
 
