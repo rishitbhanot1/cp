@@ -4,8 +4,8 @@ This repository contains my competitive programming solutions, organized by **pl
 
 ## Current Ratings:
 
-<p align="center">
-  <img src="assets/stat.svg" alt="CP Ratings"/>
+<p align="left">
+  <img src="assets/stats.svg" alt="CP Ratings"/>
 </p>
 
 ## Naming Convention
