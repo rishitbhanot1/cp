@@ -2,6 +2,12 @@
 
 This repository contains my competitive programming solutions, organized by **platform** and **difficulty range**.
 
+## Current Ratings:
+
+<p align="center">
+  <img src="assets/stat.svg" alt="CP Ratings"/>
+</p>
+
 ## Naming Convention
 Each file follows:
 ```
