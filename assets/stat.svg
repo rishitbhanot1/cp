@@ -1,12 +1,32 @@
-<svg width="480" viewBox="0 0 480 120" xmlns="http://www.w3.org/2000/svg">
-  <rect x="166" y="0" width="148" height="110" rx="10" fill="#fff" stroke="#e5e5e5" stroke-width="0.5"/>
-  <text x="182" y="28" font-family="sans-serif" font-size="10" fill="#888" letter-spacing="1" font-weight="500">CODECHEF</text>
+<svg width="480" height="120" viewBox="0 0 480 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-outer { fill: none; }
+    .card-bg { fill: #ffffff; stroke: #e5e5e5; }
+    .label { fill: #888888; }
+    .rank-bg-cc { fill: #EAF3DE; }
+    .rank-text-cc { fill: #27500A; }
+    .rank-bg-cf { fill: #FEF3E2; }
+    .rank-text-cf { fill: #7a4e00; }
+
+    @media (prefers-color-scheme: dark) {
+      .card-bg { fill: #161b22; stroke: #30363d; }
+      .label { fill: #8b949e; }
+      .rank-bg-cc { fill: #1a2e0a; }
+      .rank-text-cc { fill: #97C459; }
+      .rank-bg-cf { fill: #3d2e0a; }
+      .rank-text-cf { fill: #FAC775; }
+    }
+  </style>
+
+  <rect x="166" y="0" width="148" height="110" rx="10" class="card-bg" stroke-width="0.5"/>
+  <text x="182" y="28" font-family="sans-serif" font-size="10" class="label" letter-spacing="1" font-weight="500">CODECHEF</text>
   <text x="182" y="64" font-family="sans-serif" font-size="30" fill="#5B4638" font-weight="500">1460</text>
-  <rect x="182" y="76" width="36" height="20" rx="10" fill="#FAECE7"/>
-  <text x="200" y="90" font-family="sans-serif" font-size="11" fill="#712B13" font-weight="500" text-anchor="middle">2★</text>
-  <rect x="332" y="0" width="148" height="110" rx="10" fill="#fff" stroke="#e5e5e5" stroke-width="0.5"/>
-  <text x="348" y="28" font-family="sans-serif" font-size="10" fill="#888" letter-spacing="1" font-weight="500">CODEFORCES</text>
-  <text x="348" y="64" font-family="sans-serif" font-size="30" fill="#FFA116" font-weight="500">UNRATED</text>
-  <rect x="348" y="76" width="52" height="20" rx="10" fill="#FEF3E2"/>
-  <text x="374" y="90" font-family="sans-serif" font-size="11" fill="#7a4e00" font-weight="500" text-anchor="middle">UNRATED</text>
+  <rect x="182" y="76" width="36" height="20" rx="10" class="rank-bg-cc"/>
+  <text x="200" y="90" font-family="sans-serif" font-size="11" class="rank-text-cc" font-weight="500" text-anchor="middle">2★</text>
+
+  <rect x="332" y="0" width="148" height="110" rx="10" class="card-bg" stroke-width="0.5"/>
+  <text x="348" y="28" font-family="sans-serif" font-size="10" class="label" letter-spacing="1" font-weight="500">CODEFORCES</text>
+  <text x="348" y="64" font-family="sans-serif" font-size="20" fill="#FFA116" font-weight="500">UNRATED</text>
+  <rect x="348" y="76" width="72" height="20" rx="10" class="rank-bg-cf"/>
+  <text x="384" y="90" font-family="sans-serif" font-size="11" class="rank-text-cf" font-weight="500" text-anchor="middle">Unrated</text>
 </svg>
