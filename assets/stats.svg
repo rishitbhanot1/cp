@@ -1,32 +1,45 @@
-<svg width="480" height="120" viewBox="0 0 480 120" xmlns="http://www.w3.org/2000/svg">
+<svg width="320" height="148" viewBox="0 0 320 148" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .bg-outer { fill: none; }
-    .card-bg { fill: #ffffff; stroke: #e5e5e5; }
-    .label { fill: #888888; }
-    .rank-bg-cc { fill: #EAF3DE; }
+    .card { fill: #ffffff; stroke: #e5e5e5; }
+    .track { stroke: #f0f0f0; }
+    .platform { fill: #aaaaaa; }
+    .rank-pill-cc { fill: #EAF3DE; }
     .rank-text-cc { fill: #27500A; }
-    .rank-bg-cf { fill: #FEF3E2; }
+    .rank-pill-cf { fill: #0018f9; }
     .rank-text-cf { fill: #7a4e00; }
-
+    .divider { stroke: #e5e5e5; }
     @media (prefers-color-scheme: dark) {
-      .card-bg { fill: #161b22; stroke: #30363d; }
-      .label { fill: #8b949e; }
-      .rank-bg-cc { fill: #1a2e0a; }
-      .rank-text-cc { fill: #97C459; }
-      .rank-bg-cf { fill: #3d2e0a; }
-      .rank-text-cf { fill: #FAC775; }
+      .card { fill: #161b22; stroke: #30363d; }
+      .track { stroke: #2d333b; }
+      .platform { fill: #8b949e; }
+      .divider { stroke: #30363d; }
+      .rank-pill-cc { fill: #008000; }
+      .rank-text-cc { fill: #ffffff; }
+      .rank-pill-cf { fill: #0018f9; }
+      .rank-text-cf { fill: #ffffff; }
     }
   </style>
 
-  <rect x="166" y="0" width="148" height="110" rx="10" class="card-bg" stroke-width="0.5"/>
-  <text x="182" y="28" font-family="sans-serif" font-size="10" class="label" letter-spacing="1" font-weight="500">CODECHEF</text>
-  <text x="182" y="64" font-family="sans-serif" font-size="30" fill="#5B4638" font-weight="500">1460</text>
-  <rect x="182" y="76" width="36" height="20" rx="10" class="rank-bg-cc"/>
-  <text x="200" y="90" font-family="sans-serif" font-size="11" class="rank-text-cc" font-weight="500" text-anchor="middle">2★</text>
+  <rect x="0" y="0" width="320" height="148" rx="16" class="card" stroke-width="0.5"/>
+  <line x1="160" y1="10" x2="160" y2="132" stroke-width="0.5" class="divider"/>
 
-  <rect x="332" y="0" width="148" height="110" rx="10" class="card-bg" stroke-width="0.5"/>
-  <text x="348" y="28" font-family="sans-serif" font-size="10" class="label" letter-spacing="1" font-weight="500">CODEFORCES</text>
-  <text x="348" y="64" font-family="sans-serif" font-size="20" fill="#FFA116" font-weight="500">UNRATED</text>
-  <rect x="348" y="76" width="72" height="20" rx="10" class="rank-bg-cf"/>
-  <text x="384" y="90" font-family="sans-serif" font-size="11" class="rank-text-cf" font-weight="500" text-anchor="middle">Unrated</text>
+  <!-- CodeChef -->
+  <path d="M18 98 A62 62 0 0 1 142 98" fill="none" stroke-width="6" stroke-linecap="round" class="track"/>
+  <path d="M18 98 A62 62 0 0 1 142 98" fill="none" stroke="#3B6D11" stroke-width="6" stroke-linecap="round" stroke-dasharray="194.8" stroke-dashoffset="81"/>
+  <circle cx="18" cy="98" r="3" fill="#3B6D11" opacity="0.25"/>
+  <text x="80" y="80" text-anchor="middle" font-size="26" font-weight="600" fill="#3B6D11" font-family="sans-serif">1460</text>
+  <text x="80" y="95" text-anchor="middle" font-size="10" font-family="sans-serif" class="platform">Div 3</text>
+  <rect x="44" y="102" width="72" height="19" rx="9.5" class="rank-pill-cc"/>
+  <text x="80" y="115" text-anchor="middle" font-size="10.5" font-weight="500" font-family="sans-serif" class="rank-text-cc">★★</text>
+  <text x="80" y="136" text-anchor="middle" font-size="11" font-family="sans-serif" class="platform">CodeChef</text>
+
+  <!-- codeforces -->
+  <path d="M178 98 A62 62 0 0 1 302 98" fill="none" stroke-width="6" stroke-linecap="round" class="track"/>
+  <path d="M178 98 A62 62 0 0 1 302 98" fill="none" stroke="#0018f9" stroke-width="6" stroke-linecap="round" stroke-dasharray="194.8" stroke-dashoffset="194"/>
+  <circle cx="178" cy="98" r="3" fill="#0018f9" opacity="0.25"/>
+  <text x="240" y="75" text-anchor="middle" font-size="22" font-weight="600" fill="#0018f9" font-family="sans-serif">Unrated</text>
+  <text x="240" y="93" text-anchor="middle" font-size="10" font-family="sans-serif" class="platform">Div 4</text>
+  <rect x="190" y="102" width="100" height="19" rx="9.5" class="rank-pill-cf"/>
+  <text x="240" y="115" text-anchor="middle" font-size="10.5" font-weight="500" font-family="sans-serif" class="rank-text-cf">Yet To Compete</text>
+  <text x="240" y="136" text-anchor="middle" font-size="11" font-family="sans-serif" class="platform">Codeforces</text>
 </svg>
