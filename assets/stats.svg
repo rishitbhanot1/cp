@@ -25,9 +25,9 @@
 
   <!-- CodeChef -->
   <path d="M18 98 A62 62 0 0 1 142 98" fill="none" stroke-width="6" stroke-linecap="round" class="track"/>
-  <path d="M18 98 A62 62 0 0 1 142 98" fill="none" stroke="#3B6D11" stroke-width="6" stroke-linecap="round" stroke-dasharray="194.8" stroke-dashoffset="81"/>
+  <path d="M18 98 A62 62 0 0 1 142 98" fill="none" stroke="#3B6D11" stroke-width="6" stroke-linecap="round" stroke-dasharray="194.8" stroke-dashoffset="20"/>
   <circle cx="18" cy="98" r="3" fill="#3B6D11" opacity="0.25"/>
-  <text x="80" y="80" text-anchor="middle" font-size="26" font-weight="600" fill="#3B6D11" font-family="sans-serif">1460</text>
+  <text x="80" y="80" text-anchor="middle" font-size="26" font-weight="600" fill="#3B6D11" font-family="sans-serif">1576</text>
   <text x="80" y="95" text-anchor="middle" font-size="10" font-family="sans-serif" class="platform">Div 3</text>
   <rect x="44" y="102" width="72" height="19" rx="9.5" class="rank-pill-cc"/>
   <text x="80" y="115" text-anchor="middle" font-size="10.5" font-weight="500" font-family="sans-serif" class="rank-text-cc">★★</text>
